@@ -29,7 +29,7 @@ HEROKU = dotenv.get('HEROKU', default=False)
 SECRET_KEY = '8x@mjp75(-#ys_f-@8-5ys@_2tjb^27mohesj=7t)cyueb3u7n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = dotenv.get('DEBUG', default=False)
 
 ALLOWED_HOSTS = []
 
