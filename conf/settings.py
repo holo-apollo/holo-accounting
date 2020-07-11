@@ -45,8 +45,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # third-party
+    'admin_auto_filters',
+
     # local
     'apps.common',
+    'apps.counterparties',
+    'apps.operations',
+    'apps.orders',
+    'apps.products',
     'apps.users',
 ]
 
